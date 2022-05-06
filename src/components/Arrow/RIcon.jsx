@@ -1,5 +1,5 @@
 import React from 'react'
-import { Path, Rsvg } from './RStyles';
+import { Path, Rsvg } from './RIconStyles';
 
 const svgVariants = {
     hidden: {

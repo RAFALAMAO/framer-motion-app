@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import R from '../components/Arrow/R'
+import RIcon from '../components/Arrow/RIcon'
 import { Rafalamao } from '../components/Arrow/Rafalamao'
 import { HomeContainer } from './HomeStyles'
 
@@ -24,7 +24,7 @@ export default class Home extends Component {
     return (
       <HomeContainer variants={containerVariants} initial='hidden' animate='show'>
         <a href="/framer-motion-app/">
-          <R/>
+          <RIcon/>
         </a>
         <Link to={'/framer-motion-app/about'}>
           <Rafalamao/>

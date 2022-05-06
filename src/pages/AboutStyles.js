@@ -8,7 +8,7 @@ export const Container = styled(motion.div)`
 export const H1 = styled.h1`
   text-align: center;
   font-size: 50px;
-  font-family: 'Amatic SC', cursive;
+  font-family: ${(props) => (props.theme.fonts.menInBlack)};
 `
 export const Desc = styled.div`
   width: 90%;
@@ -24,5 +24,5 @@ export const P = styled.p`
   font-size: 15px;
   width: 80%;
   text-align: justify;
-  font-family: 'Space Mono', monospace;
+  font-family: ${(props) => (props.theme.fonts.mono)};
 `

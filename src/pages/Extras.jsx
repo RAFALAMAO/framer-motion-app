@@ -23,7 +23,9 @@ export default class Extras extends Component {
       <Container variants={containerVariants} initial='hidden' animate='show'>
         <H1>Do you want more information?</H1>
         <div>
-          <Button>Yes, please</Button>
+          <a style={{textDecoration: 'none'}} href="https://my-portfolio-rafalamao.vercel.app/" target='_blank' rel="noreferrer">
+            <Button>Yes, please</Button>
+          </a>
           <LinkStyled to={'/framer-motion-app/'}>
             <Button>No, back home</Button>
           </LinkStyled>

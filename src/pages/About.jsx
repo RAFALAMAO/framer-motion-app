@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Arrow } from '../components/Arrow/Arrow'
+import ReactIcon from '../components/Arrow/ReactIcon'
+import Upiita from '../components/Arrow/Upiita'
 import { Container, Desc, H1, P } from './AboutStyles'
 
 const containerVariants = {
@@ -30,8 +32,15 @@ export default class About extends Component {
 
           <br/><br/>I started with C / C ++, then Matlab, LabView, JavaScript, Python, C #, Java. Currently I am programming mainly in React technology.
           </P>
+          <div>
+            <a href="https://www.upiita.ipn.mx/" target="_blank" rel="noreferrer">
+              <Upiita/>
+            </a>
+            <a href="https://reactjs.org" target="_blank" rel="noreferrer">
+              <ReactIcon/>
+            </a>
+          </div>
         </Desc>
-        <div></div>
         <Arrow linkPath='extras'/>
       </Container>
     )
