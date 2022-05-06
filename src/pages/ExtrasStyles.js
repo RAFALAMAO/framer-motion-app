@@ -14,6 +14,10 @@ export const H1 = styled.h1`
   margin-bottom: 30px;
   font-size: 40px;
   font-family: ${(props) => (props.theme.fonts.menInBlack)};
+
+  @media ${(props) => (props.theme.breakpoints.sm)} {
+    font-size: 30px;
+  }
 `
 
 export const Button = styled.button`
@@ -36,5 +40,10 @@ export const Button = styled.button`
     color: #ff0000;
 
     transform: scale(1.05);
+  }
+
+  @media ${(props) => (props.theme.breakpoints.sm)} {
+    font-size: 20px;
+    width: 150px;
   }
 `

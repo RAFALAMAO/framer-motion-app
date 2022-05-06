@@ -9,6 +9,12 @@ export const H1 = styled.h1`
   text-align: center;
   font-size: 50px;
   font-family: ${(props) => (props.theme.fonts.menInBlack)};
+  @media ${(props) => (props.theme.breakpoints.sm)} {
+    font-size: 40px;
+  }
+  @media ${(props) => (props.theme.breakpoints.md)} {
+    font-size: 45px;
+  }
 `
 export const Desc = styled.div`
   width: 90%;
@@ -25,4 +31,12 @@ export const P = styled.p`
   width: 80%;
   text-align: justify;
   font-family: ${(props) => (props.theme.fonts.mono)};
+
+  @media ${(props) => (props.theme.breakpoints.md)} {
+    font-size: 12px;
+  }
+
+  @media ${(props) => (props.theme.breakpoints.sm)} {
+    font-size: 8px;
+  }
 `

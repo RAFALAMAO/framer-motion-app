@@ -8,6 +8,17 @@ export const Svg = styled(motion.svg)`
   margin: auto;
 
   padding-top: 1%; */
+  @media ${(props) => (props.theme.breakpoints.md)} {
+    width: 90%;
+    padding-top: 10%;
+    /* padding-bottom: -20%; */
+  }
+
+  @media ${(props) => (props.theme.breakpoints.sm)} {
+    width: 85%;
+    padding-top: 10%;
+    /* padding-bottom: -20%; */
+  }
 
   /* Se accede a una etiqueta hijo */
   & path {

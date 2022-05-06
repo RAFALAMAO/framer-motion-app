@@ -8,6 +8,15 @@ export const Rsvg = styled(motion.svg)`
   margin: auto;
 
   padding-top: 5%; */
+  @media ${(props) => (props.theme.breakpoints.md)} {
+    width: 80%;
+    padding-top: 10%;
+    /* padding-bottom: -20%; */
+  }
+
+  @media ${(props) => (props.theme.breakpoints.sm)} {
+    width: 75%;
+  }
 
   /* Se accede a una etiqueta hijo */
   & path {
