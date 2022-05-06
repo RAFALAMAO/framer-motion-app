@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import RIcon from '../components/Arrow/RIcon'
-import { Rafalamao } from '../components/Arrow/Rafalamao'
+import RIcon from '../components/RIcon'
+import { Rafalamao } from '../components/Rafalamao'
 import { HomeContainer } from './HomeStyles'
 
 const containerVariants = {

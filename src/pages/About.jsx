@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Arrow } from '../components/Arrow/Arrow'
-import ReactIcon from '../components/Arrow/ReactIcon'
-import Upiita from '../components/Arrow/Upiita'
+import { Arrow } from '../components/Arrow'
+import ReactIcon from '../components/ReactIcon'
+import Upiita from '../components/Upiita'
 import { Container, Desc, H1, P } from './AboutStyles'
 
 const containerVariants = {

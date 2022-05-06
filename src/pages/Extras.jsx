@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LinkStyled } from '../components/Arrow/ArrowStyles';
+import { LinkStyled } from '../components/ArrowStyles';
 import { Button, Container, H1 } from './ExtrasStyles';
 
 const containerVariants = {
