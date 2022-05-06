@@ -1,0 +1,11 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.App {
+  height: 100vh;
+  /* background-image: url("/framer-motion-app/images/background.jpg"); */
+  color: white;
+  overflow: hidden;
+}
