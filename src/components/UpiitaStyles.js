@@ -8,6 +8,9 @@ export const Rsvg = styled(motion.svg)`
   margin: auto;
 
   padding-top: 5%; */
+
+  width: 40%;
+
   @media ${(props) => (props.theme.breakpoints.md)} {
     width: 80%;
     padding-top: 10%;
