@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/framer-motion-app/static/css/main.48de863d.css",
-    "main.js": "/framer-motion-app/static/js/main.5b4f50c5.js",
+    "main.js": "/framer-motion-app/static/js/main.bc0aab87.js",
     "index.html": "/framer-motion-app/index.html",
     "main.48de863d.css.map": "/framer-motion-app/static/css/main.48de863d.css.map",
-    "main.5b4f50c5.js.map": "/framer-motion-app/static/js/main.5b4f50c5.js.map"
+    "main.bc0aab87.js.map": "/framer-motion-app/static/js/main.bc0aab87.js.map"
   },
   "entrypoints": [
     "static/css/main.48de863d.css",
-    "static/js/main.5b4f50c5.js"
+    "static/js/main.bc0aab87.js"
   ]
 }
